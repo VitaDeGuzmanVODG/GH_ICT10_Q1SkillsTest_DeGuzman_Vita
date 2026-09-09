@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <title>Skills Test</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Coffee Shop</h1>
+
+    <h2>Menu:</h2>
+
+    <label>
+        <input type="checkbox" value="99"> Espresso = 99
+    </label>
+
+    <br>
+    <label>
+        <input type="checkbox" value="99"> Tea = 99
+    </label>
+
+    <br>
+    <label>
+        <input type="checkbox" value="129"> Caramel Macchiato = 129
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" value="129"> Cappuccino = 129
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" value="129"> Latte = 129
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" value="129"> Mocha = 129
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" value="129"> Hot Chocolate = 129
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" value="30"> Water = 30
+    </label>
+    
+    <br>
+
+    <button type="button" py-click="create_order">
+        Create Order
+    </button>
+
+    <div id="receipt"></div>
+    <script type="py" src="./main.py"></script>
+
+</body>
+</html>
